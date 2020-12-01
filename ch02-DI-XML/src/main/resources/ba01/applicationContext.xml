@@ -6,5 +6,9 @@
     <bean id="myStudent" class="com.zxc.ba01.Student">
         <property name="age" value="19"></property>
         <property name="name" value="周绪驰"></property>
+        <property name="email" value="zxc@qq.com"></property>
+    </bean>
+    <bean id="myDate" class="java.util.Date">
+         <property name="time" value="8364297429"></property>
     </bean>
 </beans>
