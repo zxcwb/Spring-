@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--设置别名-->
+    <typeAliases>
+        <package name="com.zxc.domain"/>
+    </typeAliases>
+
+    <!-- sql mapper(sql映射文件)的位置
+     name：是包名， 这个包中的所有mapper.xml一次都能加载
+    -->
+    <mappers>
+        <package name="com.zxc.dao"/>
+    </mappers>
+</configuration>
